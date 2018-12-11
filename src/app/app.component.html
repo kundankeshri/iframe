@@ -1,0 +1,11 @@
+<div>
+              <h1>Hello {{title}}</h1>
+              <h2>{{'Page Header ' +pageHeader}}</h2>
+              <h2>{{'SumNumber ' + (10+20+30)}}</h2>
+              <h2>{{pageName ? pageName : ' Keshri' }}</h2>
+              <h2>FullName: - {{getFullName()}}</h2>
+              <img src = '{{imagePath}}'/>
+            </div>
+            <iframe id ="testFrame" width="1200" height="400" [src]="img | safe">
+              
+            </iframe>
